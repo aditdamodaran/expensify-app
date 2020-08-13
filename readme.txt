@@ -1,6 +1,3 @@
-live-server /public
+# Expensify App
 
-babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
-babel src/playground/counter-example.js --out-file=public/scripts/app.js --presets=env,react --watch
-
-yarn test -- --watchAll
+The expensify app is a simple web app that lets you track your expenses and filter expenses within a date range. Login with your Google Account!
